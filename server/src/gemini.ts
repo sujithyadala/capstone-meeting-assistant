@@ -6,7 +6,7 @@ import {
   type SummaryResult,
 } from "./summarizer.js";
 
-const DEFAULT_MODEL = "gemini-flash-latest";
+const DEFAULT_MODEL = "gemini-3.6-flash";
 
 /** Calls Google Gemini to summarize notes. Throws on failure (caller handles fallback). */
 export async function callGemini(

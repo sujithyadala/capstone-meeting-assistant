@@ -52,7 +52,7 @@ Open the frontend URL, paste notes (or click **Load sample**), and click **Summa
 | `GEMINI_API_KEY` | Google Gemini key (free tier). Preferred when set. |
 | `ANTHROPIC_API_KEY` | Anthropic Claude key. Used if no Gemini key. |
 | `AI_PROVIDER` | Optional: force `gemini` or `anthropic`. |
-| `GEMINI_MODEL` | Optional override (default `gemini-flash-latest`). |
+| `GEMINI_MODEL` | Optional override (default `gemini-3.6-flash`). |
 | `PORT` | Backend port (default 3001). |
 | `CORS_ORIGIN` | Allowed frontend origin(s), comma-separated. |
 
